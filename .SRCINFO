@@ -1,0 +1,19 @@
+pkgbase = sonic-decoration
+	pkgdesc = Plugin based library to create window decorations
+	pkgver = 6.6.5
+	pkgrel = 1
+	url = https://github.com/Sonic-DE/sonic-decoration
+	arch = x86_64
+	groups = sonicde
+	license = LGPL-2.0-or-later
+	makedepends = sonic-frameworks-cmake-modules
+	depends = gcc-libs
+	depends = glibc
+	depends = ki18n
+	depends = qt6-base
+	provides = kdecoration
+	conflicts = kdecoration
+	source = sonic-decoration-6.6.5.tar.gz::https://github.com/Sonic-DE/sonic-decoration/archive/refs/tags/6.6.5.tar.gz
+	sha256sums = 04c0560b9a159872cdeadb1f8840300a5403964ec32d27d00c9f85022110da1f
+
+pkgname = sonic-decoration
